@@ -1,6 +1,7 @@
-from PlayML.module_Selection import module_Selection
-from PlayML.Knn import Knn
-import PlayML.metrics as metrics
+from ML.KNN.module_Selection import module_Selection
+from ML.KNN.Knn import Knn
+import ML.KNN.metrics as metrics
+
 import matplotlib
 from sklearn import datasets
 from matplotlib import pyplot as mpl

@@ -1,5 +1,5 @@
-from PlayML.module_Selection import module_Selection
-from PlayML.Knn import Knn
+from ML.KNN.module_Selection import module_Selection
+from ML.KNN.Knn import Knn
 from sklearn import datasets
 if __name__ == '__main__':
     iris = datasets.load_iris()
